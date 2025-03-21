@@ -1,0 +1,26 @@
+{
+  "name": "avalanche-ai-agent",
+  "version": "1.0.0",
+  "description": "AI-powered monitoring agent for Avalanche blockchain",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node --no-deprecation monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "avalanche",
+    "blockchain",
+    "monitoring",
+    "ai",
+    "telegram"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.0",
+    "openai": "^4.14.0"
+  }
+} 
